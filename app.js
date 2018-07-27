@@ -86,7 +86,7 @@ database.ref().on(
       $('<td>').text(childSnapshot.val().name),
       $('<td>').text(childSnapshot.val().destination),
       $('<td>').text(childSnapshot.val().frequency),
-      $('<td>').text(moment(nextTrain).format('hh:mm')),
+      $('<td>').text(moment(nextTrain).format('hh:mm A')),
       $('<td>').text(tMinutesTillTrain)
     );
 
